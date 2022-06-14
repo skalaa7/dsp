@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../doPivoting.srcs/sources_1/new/dsp.vhd" \
+"../../../../doPivoting.srcs/sim_1/new/dsp_tb.vhd" \
+
+# Do not sort compile order
+nosort
